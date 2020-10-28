@@ -53,26 +53,28 @@ table {
 
 
 
+
 * {
     box-sizing:border-box; 
     padding:0;
     margin:0;
+    /*ony be as big as the width ive given you*/ 
+}
+
+
+body{
     max-width: 100%; /*nothing will be bigger than its parent*/
     font-weight: lighter;
     letter-spacing: 3px;
     font-size:1rem;
-    font-family: 'Chelsea Market', cursive, serif; /*ony be as big as the width ive given you*/ 
-}
-html{
-    font-family: Chelsea Market, cursive serif;
-    
+    font-family: 'Chelsea Market', cursive, serif; 
 }
 
 header{
     width: 100%;
     border: none;
     padding: 0%;
-    margin:0%;
+    margin:5% 0% 0% 0%;
 }
 
 nav{
@@ -83,12 +85,11 @@ nav{
     font-size: 1rem;
     display: inline-block;
     width: 15%;
-    
+    margin:5% auto 4% auto;  
 }
 
 button{
     font-size: 1.5rem;
-    
     width:100%;
 }
 
@@ -127,12 +128,12 @@ margin: 0% auto 0 13%;
     max-width: 100%;
     display: inline-block;
     margin:5% auto;
+    text-align:center;
 
 }
 
 .title img.circle{
     border-radius: 60%;
-    margin: 0% 0% 5% 5%;
     max-width: 20%;
     display:inline-block;
     padding:1%;
@@ -171,26 +172,45 @@ p {
 
 .centerImgFire{
     margin: auto;
-    max-width: 20%;
-    padding:1%; 
+    max-width: 100%; 
 }
 
+.centerImgFire img{
+    width:20rem;
 
-.centerImgRV{
+}
+
+.centerImgRV img{
+    width:20rem;
+}
+
+.mid{
+    position:relative;
     margin: auto;
-    max-width: 20%;
-    padding:1%; 
+    text-align:center;
+    
 }
 
-.mid .centerImgFire .centerImgRV p{
-    padding: 50%;
-    display: inline-block;
-    margin:0% 50% 0% 50%;
+
+.centerImgFire p{
+    
+    width:30%;
+    background-color:white;
+}
+
+.mid .centerImgRV p{
+    width:30%;
+    background-color:white;
+    margin:1% auto 5% auto;
 }
 
 footer img.footImage{
-    margin:auto;
-    display:flex;
-    max-width: 100%;
-    display:inline-block;
+    background-width: auto;
+    background-height:3%;
+}
+
+footer nav{
+    background-color:#F9E7DC;
+    padding:3%;
+    margin:0%;
 }
