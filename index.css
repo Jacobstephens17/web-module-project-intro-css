@@ -76,6 +76,8 @@ body{
     letter-spacing: 1px;
 }
 
+
+
 header{
     width: 100%;
     border: none;
@@ -109,7 +111,7 @@ button{
     border-radius: 15px;
     text-align: center;
     padding:1% 2%;
-    margin: 0% auto 0% 13%; 
+    margin: 5% auto 5% 13%; 
 }
 
 #learn{
@@ -153,25 +155,27 @@ margin: 0% auto 0 13%;
     display: inline-block;
     width: 70%;
     text-align: center;
-    margin:3% auto;
+    margin:2% auto;
     font-family: 'Roboto Mono', monospace;
     font-family: 'Chelsea Market', cursive, serif; 
+}
+
+
+
+#titleP{
+    text-align: center;
+    background-color: white;
+    width:80%;
+    font-size: 1.5rem;
+    margin:auto 41% auto 20%;
 }
 
 #titleP1{
     text-align: center;
     background-color: white;
-    width:70%;
+    width:60%;
     font-size: 1.5rem;
-   
-   
-}
-
-#titleP{
-    text-align: center;
-    background-color: white;
-    width:90%;
-    font-size: 1.5rem;
+    margin:auto 40% auto 35%;
 }
 
 p {
@@ -201,12 +205,12 @@ p {
 }
 
 .centerImgFire img{
-    width:10rem;
+    width:12rem;
 
 }
 
 .centerImgRV img{
-    width:10rem;
+    width:12rem;
 }
 
 .mid{
@@ -228,23 +232,58 @@ p {
     margin:1% auto 5% auto;
 }
 
-footer img.footImage{
-    object-fit:cover;
-    width: 100%;
-    height:20vw;
-    float:center;
-    
-    
-}
-
-footer nav{
-    object-fit:cover;
-    width: 100%;
-    background-color:#F9E7DC;
-    padding:3%;
-    margin:0%;
-}
 
 .mid p span{
     font-weight: bold;
 }
+
+
+.footImage img{
+   
+    height:50rem;
+    position: static;
+    width:100%;
+    margin:auto;
+    padding-bottom:12%;
+    position:static;
+}
+
+#container{
+    position:static;
+    
+    background-color:#F9E7DC;
+    background-position: center;
+    width: 100%;
+    background:cover;
+}
+
+
+
+
+#footer-nav{
+    object-fit:cover;
+    position:static;
+    width: 100%;
+    margin-top:-32%;
+    overflow:hidden;
+    background:cover;
+    background-color:#F9E7DC;
+    position: absolute;
+    width: 100%;
+}
+
+
+
+/*
+#cover{
+    width: 100%;
+    overflow:hidden;
+    background:cover;
+    background-color:#F9E7DC;
+}
+footer menu .buttons {
+    position: absolute;
+    margin:4%;
+    
+  }
+  */
