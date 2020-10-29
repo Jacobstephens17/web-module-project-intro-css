@@ -73,7 +73,7 @@ body{
     font-weight: light;
     font-size:1rem;
     font-family: 'Roboto Mono', monospace, sans-serif;
-    letter-spacing: 1px;
+ 
 }
 
 
@@ -220,7 +220,6 @@ p {
     
 }
 
-
 .centerImgFire p{
     width:30%;
     background-color:white;
@@ -232,58 +231,34 @@ p {
     margin:1% auto 5% auto;
 }
 
-
 .mid p span{
     font-weight: bold;
 }
 
-
 .footImage img{
-   
-    height:50rem;
-    position: static;
+    height:25vh;
     width:100%;
-    margin:auto;
-    padding-bottom:12%;
+    margin:0% 0% -7% 0%;
+    padding: bottom 0;
     position:static;
 }
 
 #container{
     position:static;
-    
-    background-color:#F9E7DC;
+    margin-bottom:-20%;
     background-position: center;
     width: 100%;
     background:cover;
 }
 
-
-
-
 #footer-nav{
     object-fit:cover;
     position:static;
     width: 100%;
-    margin-top:-32%;
+    margin:-9rem auto;
     overflow:hidden;
     background:cover;
     background-color:#F9E7DC;
     position: absolute;
     width: 100%;
 }
-
-
-
-/*
-#cover{
-    width: 100%;
-    overflow:hidden;
-    background:cover;
-    background-color:#F9E7DC;
-}
-footer menu .buttons {
-    position: absolute;
-    margin:4%;
-    
-  }
-  */
