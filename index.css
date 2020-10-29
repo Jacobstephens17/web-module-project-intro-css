@@ -71,10 +71,9 @@ table {
 body{
     max-width: 100%; /*nothing will be bigger than its parent*/
     font-weight: light;
-    letter-spacing: 3px;
     font-size:1rem;
-    font-family: 'Roboto Mono', monospace;
-    
+    font-family: 'Roboto Mono', monospace, sans-serif;
+    letter-spacing: 1px;
 }
 
 header{
@@ -98,7 +97,9 @@ nav{
 
 button{
     font-size: 1.5rem;
-    width:100%;
+    max-width:100%;
+    letter-spacing: 2px;
+    
 }
 
 #plan{
@@ -108,9 +109,7 @@ button{
     border-radius: 15px;
     text-align: center;
     padding:1% 2%;
-    margin: 0% auto 0 13%;
-    
-
+    margin: 0% auto 0% 13%; 
 }
 
 #learn{
@@ -119,8 +118,8 @@ button{
     border: 1px solid lightgray;
     border-radius: 15px;
     text-align: center;
-    padding:1% 2%;
-    margin: 0% auto 0 13%;
+    padding:1% 2% 1% 2%;
+    margin: 0% auto 0% 13%;
 }
 
 #get{
@@ -144,6 +143,7 @@ margin: 0% auto 0 13%;
     border-radius: 50%;
     max-width: 25%;
     margin: 0% 0% 0% 5%;
+    float:left;
 }
 
 
@@ -153,16 +153,25 @@ margin: 0% auto 0 13%;
     display: inline-block;
     width: 70%;
     text-align: center;
-    margin:5% auto;
+    margin:3% auto;
     font-family: 'Roboto Mono', monospace;
     font-family: 'Chelsea Market', cursive, serif; 
+}
+
+#titleP1{
+    text-align: center;
+    background-color: white;
+    width:70%;
+    font-size: 1.5rem;
+   
+   
 }
 
 #titleP{
     text-align: center;
     background-color: white;
-    margin:auto;
-    width:35%;
+    width:90%;
+    font-size: 1.5rem;
 }
 
 p {
@@ -222,7 +231,8 @@ p {
 footer img.footImage{
     object-fit:cover;
     width: 100%;
-    height:30vw;
+    height:20vw;
+    float:center;
     
     
 }
@@ -233,4 +243,8 @@ footer nav{
     background-color:#F9E7DC;
     padding:3%;
     margin:0%;
+}
+
+.mid p span{
+    font-weight: bold;
 }
